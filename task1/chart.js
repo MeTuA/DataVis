@@ -3,7 +3,7 @@ async function buildPlot() {
     const data = await d3.json("my_weather_data.json");
     //console.table(data);
     const dateParser = d3.timeParse("%Y-%m-%d");
-    const yAccessor = (d) => d.temperatureMax;
+    const yAccessor = (d) => d.temperatureHigh;
     const xAccessor = (d) => dateParser(d.date);
     // Функции для инкапсуляции доступа к колонкам набора данных
 
