@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
+</head>
+<body>
+<script src="task2.js"></script>
+<div id="wrapper">
+    <div id="histogram"></div>
+    <div id="buttons" style="position: absolute; top: 0; right: 0;margin-right: 100px;">
+        <button onclick="drawHist('temperatureLow')">Temp Low</button> <br/>
+        <button onclick="drawHist('temperatureHigh')">Temp High</button> <br/>
+        <button onclick="drawHist('temperatureMin')">Temp Min</button> <br/>
+        <button onclick="drawHist('temperatureMax')">Temp Max</button> <br/>
+    </div>
+</div>
+</body>
+</html>
