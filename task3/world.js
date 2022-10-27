@@ -28,7 +28,7 @@ function generateOnlyAxes(){
     dimension.boundedPlotHeight = dimension.height_plot - dimension.margin.top - dimension.margin.bottom;
 
     const plot = d3.select("#plot2").append("svg");
-    plot.attr("width", dimension.width_plot);
+    plot.attr("width", dimension.width_plot );
     plot.attr("height", dimension.height_plot);
     
     // bounding borders
